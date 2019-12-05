@@ -21,5 +21,7 @@ namespace InventorySystem
         void AddItem();
 
         void TestMethod();
+
+        void TestMethod2();
     }
 }
