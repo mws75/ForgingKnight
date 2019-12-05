@@ -19,5 +19,7 @@ namespace InventorySystem
 
         void RemoveItem();
         void AddItem();
+
+        void TestMethod();
     }
 }
