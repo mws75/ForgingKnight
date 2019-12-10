@@ -15,13 +15,9 @@ namespace InventorySystem
     {
         int Size { get; set; }
 
-        List<object> contents { get; set; }
+        Dictionary<string, object> contents { get; set; }
 
         void RemoveItem();
-        void AddItem();
-
-        void TestMethod();
-
-        void TestMethod2();
+        void AddItem();        
     }
 }
